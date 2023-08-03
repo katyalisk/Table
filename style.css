@@ -1,0 +1,40 @@
+body {
+	font-family: Verdana;
+}
+
+p {
+	text-align: center;
+}
+
+table {
+	margin: auto;
+	border-spacing: 5px 5px;
+}
+
+td {
+	height: 50px;
+	width: 200px;
+	color: black;
+	text-align: center;
+	border: 1px dashed black;
+}
+
+.titles {
+	position: sticky;
+	background-color: white;
+	top: 0px;
+}
+
+#chartdiv {
+	width: 500px;
+	height: 200px;
+}
+
+#table {
+	margin: auto;
+	border-spacing: 5px 5px;
+	display: block;
+	max-width: 400px;
+	height: 240px;
+	overflow-x: auto;
+}
